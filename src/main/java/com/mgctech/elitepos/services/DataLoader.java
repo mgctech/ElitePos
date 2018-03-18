@@ -25,7 +25,7 @@ public class DataLoader {
 
         User user = new User();
         user.setUsername("al@bigal73.com");
-        user.setPassword(((BCryptPasswordEncoder) passwordEncoder).encode("password"));
+        user.setPassword(((BCryptPasswordEncoder) passwordEncoder).encode("blackburn"));
         user.setEnabled(true);
         user.setAccountNotExpired(true);
         user.setAccountNotLocked(true);
